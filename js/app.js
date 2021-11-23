@@ -21,9 +21,11 @@ function verMas() {
   let btnVermas = document.querySelector("#btnVermas");
   if (btnVermas.innerHTML == "Ver mas") {
     // opcion 1 'camino corto'
+
     // contPadre.innerHTML += `<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sapiente earum, quae necessitatibus repellendus nihil praesentium, quod voluptatum aut minima fugiat consectetur reiciendis beatae nam.</p>` ;
 
     // opcion 2 'camino largo'
+    
     // 1-crear el elemento
     let parrafo = document.createElement(`p`);
     // 2- trabajar el elemento creado
@@ -48,6 +50,6 @@ function verMas() {
     }
   }
 }
-// la propiedad para acceder al texto de  un imput es value , no innerHTML
+// la propiedad par a acceder al texto de  un imput es value , no innerHTML
 
 
